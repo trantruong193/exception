@@ -1,0 +1,492 @@
+[2022-11-08T08:44:44.044Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T08:44:44.044Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1193 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T08:44:44.044Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T08:44:44.044Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T08:44:44.044Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T08:44:44.044Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T08:44:44.044Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+[2022-11-08T08:44:44.044Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T08:44:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:44:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T08:44:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T08:44:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T08:44:44.044Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 561 ms
+[2022-11-08T08:44:44.044Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T08:44:44.044Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T08:44:44.044Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T08:44:44.044Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T08:44:45.045Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T08:44:45.045Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T08:44:45.045Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T08:44:45.045Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:44:45.045Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T08:44:45.045Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T08:44:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:44:45.045Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T08:44:45.045Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.808 seconds (JVM running for 2.235)
+[2022-11-08T08:45:04.004Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T08:45:04.004Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T08:45:04.004Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-11-08T08:45:19.019Z] [com.example.lsd2.controller.StudentController] [http-nio-8080-exec-3] [35] [INFO ] StudentController save Student(id=7, name=Tran Thu Trang, email=trantrang193@gmail.com, phone=0382575181, status=true)
+[2022-11-08T08:45:40.040Z] [com.example.lsd2.controller.StudentController] [http-nio-8080-exec-4] [35] [INFO ] StudentController save Student(id=8, name=Tran Thu Trang, email=trantrang193@gmail.com, phone=0382575181, status=true)
+[2022-11-08T08:47:13.013Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:47:13.013Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T08:47:13.013Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T08:47:16.016Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T08:47:16.016Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1231 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T08:47:16.016Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T08:47:16.016Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T08:47:16.016Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T08:47:16.016Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T08:47:16.016Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+[2022-11-08T08:47:17.017Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T08:47:17.017Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:47:17.017Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T08:47:17.017Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T08:47:17.017Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T08:47:17.017Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 594 ms
+[2022-11-08T08:47:17.017Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T08:47:17.017Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T08:47:17.017Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T08:47:17.017Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T08:47:17.017Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T08:47:17.017Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T08:47:17.017Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T08:47:17.017Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:47:17.017Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T08:47:17.017Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T08:47:17.017Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:47:17.017Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T08:47:17.017Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.78 seconds (JVM running for 2.417)
+[2022-11-08T08:47:23.023Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:47:23.023Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T08:47:23.023Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T08:47:25.025Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T08:47:25.025Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1235 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T08:47:25.025Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T08:47:25.025Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T08:47:25.025Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T08:47:26.026Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T08:47:26.026Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+[2022-11-08T08:47:26.026Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T08:47:26.026Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:47:26.026Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T08:47:26.026Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T08:47:26.026Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T08:47:26.026Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 566 ms
+[2022-11-08T08:47:26.026Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T08:47:26.026Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T08:47:26.026Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T08:47:26.026Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T08:47:26.026Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T08:47:26.026Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T08:47:27.027Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T08:47:27.027Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:47:27.027Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T08:47:27.027Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T08:47:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:47:27.027Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T08:47:27.027Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.695 seconds (JVM running for 2.511)
+[2022-11-08T08:47:33.033Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T08:47:33.033Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T08:47:33.033Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 2 ms
+[2022-11-08T08:48:06.006Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [208] [WARN ] Resolved [MyException(errorObject=ErrorObject(errorCode=LSD_02, errorMessage=ErrorMessage(err_vn=Phone has been used !!, err_us=Số điện thoại đã được sử dụng !!)), errorLoader=null)]
+[2022-11-08T08:48:30.030Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:48:30.030Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T08:48:30.030Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T08:48:31.031Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T08:48:31.031Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1240 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T08:48:31.031Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T08:48:31.031Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T08:48:31.031Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T08:48:32.032Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T08:48:32.032Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+[2022-11-08T08:48:32.032Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T08:48:32.032Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:48:32.032Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T08:48:32.032Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T08:48:32.032Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T08:48:32.032Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 556 ms
+[2022-11-08T08:48:32.032Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T08:48:32.032Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T08:48:32.032Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T08:48:32.032Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T08:48:32.032Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T08:48:32.032Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T08:48:33.033Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T08:48:33.033Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:48:33.033Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T08:48:33.033Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T08:48:33.033Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:48:33.033Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T08:48:33.033Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.75 seconds (JVM running for 2.143)
+[2022-11-08T08:49:20.020Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:49:20.020Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T08:49:20.020Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T08:49:22.022Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T08:49:22.022Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1244 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T08:49:22.022Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T08:49:22.022Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T08:49:22.022Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T08:49:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T08:49:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+[2022-11-08T08:49:22.022Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T08:49:22.022Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:49:22.022Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T08:49:23.023Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T08:49:23.023Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T08:49:23.023Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 506 ms
+[2022-11-08T08:49:23.023Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T08:49:23.023Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T08:49:23.023Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T08:49:23.023Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T08:49:23.023Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T08:49:23.023Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T08:49:23.023Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T08:49:23.023Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:49:23.023Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T08:49:23.023Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T08:49:23.023Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:49:23.023Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T08:49:23.023Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.615 seconds (JVM running for 2.237)
+[2022-11-08T08:49:36.036Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T08:49:36.036Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T08:49:36.036Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2022-11-08T08:50:03.003Z] [com.example.lsd2.controller.StudentController] [http-nio-8080-exec-3] [54] [INFO ] StudentController delete Student with id: 8
+[2022-11-08T08:50:14.014Z] [com.example.lsd2.controller.StudentController] [http-nio-8080-exec-4] [54] [INFO ] StudentController delete Student with id: 7
+[2022-11-08T08:51:22.022Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-7] [208] [WARN ] Resolved [MyException(errorObject=ErrorObject(errorCode=LSD_02, errorMessage=ErrorMessage(err_vn=Phone has been used !!, err_us=Số điện thoại đã được sử dụng !!)), errorLoader=null)]
+[2022-11-08T08:51:39.039Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:51:39.039Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T08:51:39.039Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T08:51:41.041Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T08:51:41.041Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1329 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T08:51:41.041Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T08:51:41.041Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T08:51:41.041Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T08:51:41.041Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T08:51:41.041Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+[2022-11-08T08:51:42.042Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T08:51:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:51:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T08:51:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T08:51:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T08:51:42.042Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 621 ms
+[2022-11-08T08:51:42.042Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T08:51:42.042Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T08:51:42.042Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T08:51:42.042Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T08:51:42.042Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T08:51:42.042Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T08:51:42.042Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T08:51:42.042Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:51:42.042Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T08:51:43.043Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T08:51:43.043Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:51:43.043Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T08:51:43.043Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.878 seconds (JVM running for 2.394)
+[2022-11-08T08:51:47.047Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T08:51:47.047Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T08:51:47.047Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-11-08T08:52:39.039Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s852ms).
+[2022-11-08T08:53:25.025Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [208] [WARN ] Resolved [MyException(errorObject=ErrorObject(errorCode=LSD_02, errorMessage=ErrorMessage(err_vn=Phone has been used !!, err_us=Số điện thoại đã được sử dụng !!)), errorLoader=null)]
+[2022-11-08T08:53:40.040Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:53:40.040Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T08:53:40.040Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T08:53:44.044Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T08:53:44.044Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1360 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T08:53:44.044Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T08:53:44.044Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T08:53:44.044Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T08:53:44.044Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T08:53:44.044Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+[2022-11-08T08:53:45.045Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T08:53:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:53:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T08:53:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T08:53:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T08:53:45.045Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 569 ms
+[2022-11-08T08:53:45.045Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T08:53:45.045Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T08:53:45.045Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T08:53:45.045Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T08:53:45.045Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T08:53:45.045Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T08:53:45.045Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T08:53:45.045Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:53:45.045Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T08:53:46.046Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T08:53:46.046Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:53:46.046Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T08:53:46.046Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.719 seconds (JVM running for 2.125)
+[2022-11-08T08:53:51.051Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T08:53:51.051Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T08:53:51.051Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-11-08T08:55:17.017Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s733ms).
+[2022-11-08T08:55:17.017Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [208] [WARN ] Resolved [MyException(errorObject=ErrorObject(errorCode=LSD_02, errorMessage=ErrorMessage(err_vn=Phone has been used !!, err_us=Số điện thoại đã được sử dụng !!)), errorLoader=null)]
+[2022-11-08T08:55:17.017Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:55:17.017Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T08:55:17.017Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T08:55:18.018Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T08:55:18.018Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1371 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T08:55:18.018Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T08:55:18.018Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T08:55:18.018Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T08:55:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T08:55:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+[2022-11-08T08:55:19.019Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T08:55:19.019Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:55:19.019Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T08:55:19.019Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T08:55:19.019Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T08:55:19.019Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 518 ms
+[2022-11-08T08:55:19.019Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T08:55:19.019Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T08:55:19.019Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T08:55:19.019Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T08:55:19.019Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T08:55:19.019Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T08:55:20.020Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T08:55:20.020Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T08:55:20.020Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T08:55:20.020Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T08:55:20.020Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T08:55:20.020Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T08:55:20.020Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.607 seconds (JVM running for 1.971)
+[2022-11-08T08:55:23.023Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T08:55:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T08:55:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 0 ms
+[2022-11-08T08:55:24.024Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [208] [WARN ] Resolved [MyException(errorObject=ErrorObject(errorCode=LSD_02, errorMessage=ErrorMessage(err_vn=Phone has been used !!, err_us=Số điện thoại đã được sử dụng !!)), errorLoader=null)]
+[2022-11-08T09:01:06.006Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T09:01:06.006Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T09:01:06.006Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T09:01:09.009Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T09:01:09.009Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1407 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T09:01:09.009Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T09:01:09.009Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T09:01:09.009Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T09:01:09.009Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T09:01:09.009Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+[2022-11-08T09:01:09.009Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T09:01:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T09:01:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T09:01:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T09:01:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T09:01:09.009Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 513 ms
+[2022-11-08T09:01:09.009Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T09:01:09.009Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T09:01:09.009Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T09:01:09.009Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T09:01:10.010Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T09:01:10.010Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T09:01:10.010Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T09:01:10.010Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T09:01:10.010Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T09:01:10.010Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T09:01:10.010Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T09:01:10.010Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T09:01:10.010Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.545 seconds (JVM running for 1.84)
+[2022-11-08T09:01:15.015Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T09:01:15.015Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T09:01:15.015Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 6 ms
+[2022-11-08T09:01:15.015Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [208] [WARN ] Resolved [MyException(errorObject=ErrorObject(errorCode=LSD_01, errorMessage=ErrorMessage(err_vn=Email has been used !!, err_us=Email đã được sử dụng !!)), errorLoader=null)]
+[2022-11-08T09:03:30.030Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T09:03:30.030Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T09:03:30.030Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T09:03:33.033Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T09:03:33.033Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1422 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T09:03:33.033Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T09:03:33.033Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T09:03:33.033Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T09:03:33.033Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T09:03:33.033Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+[2022-11-08T09:03:33.033Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T09:03:33.033Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T09:03:33.033Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T09:03:33.033Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T09:03:33.033Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T09:03:33.033Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 508 ms
+[2022-11-08T09:03:33.033Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T09:03:33.033Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T09:03:33.033Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T09:03:33.033Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T09:03:34.034Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T09:03:34.034Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T09:03:34.034Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T09:03:34.034Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T09:03:34.034Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T09:03:34.034Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T09:03:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T09:03:34.034Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T09:03:34.034Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.501 seconds (JVM running for 1.94)
+[2022-11-08T09:03:41.041Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T09:03:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T09:03:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 3 ms
+[2022-11-08T09:03:41.041Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [208] [WARN ] Resolved [MyException(errorObject=ErrorObject(errorCode=LSD_01, errorMessage=ErrorMessage(err_vn=Email has been used !!, err_us=Email đã được sử dụng !!)), errorLoader=null)]
+[2022-11-08T09:08:12.012Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T09:08:12.012Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T09:08:12.012Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T09:33:35.035Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T09:33:35.035Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 1661 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T09:33:35.035Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T09:33:35.035Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T09:33:35.035Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T09:33:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T09:33:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+[2022-11-08T09:33:36.036Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T09:33:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T09:33:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T09:33:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T09:33:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T09:33:36.036Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 552 ms
+[2022-11-08T09:33:36.036Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T09:33:36.036Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T09:33:36.036Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T09:33:36.036Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T09:33:36.036Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T09:33:36.036Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T09:33:37.037Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T09:33:37.037Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T09:33:37.037Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T09:33:37.037Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T09:33:37.037Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T09:33:37.037Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T09:33:37.037Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.686 seconds (JVM running for 2.291)
+[2022-11-08T09:33:44.044Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T09:33:44.044Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T09:33:44.044Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-11-08T09:33:44.044Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [208] [WARN ] Resolved [MyException(errorObject=ErrorObject(errorCode=LSD_02, errorMessage=ErrorMessage(err_vn=Phone has been used !!, err_us=Số điện thoại đã được sử dụng !!)), errorLoader=null)]
+[2022-11-08T09:44:18.018Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T09:44:18.018Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T09:44:18.018Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T17:05:35.035Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T17:05:35.035Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 6886 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T17:05:35.035Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T17:05:35.035Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T17:05:35.035Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T17:05:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T17:05:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+[2022-11-08T17:05:36.036Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T17:05:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T17:05:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T17:05:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T17:05:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T17:05:36.036Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 592 ms
+[2022-11-08T17:05:36.036Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T17:05:36.036Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T17:05:36.036Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T17:05:36.036Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T17:05:36.036Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T17:05:36.036Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T17:05:37.037Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T17:05:37.037Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T17:05:37.037Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T17:05:37.037Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T17:05:37.037Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T17:05:37.037Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T17:05:37.037Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.758 seconds (JVM running for 2.308)
+[2022-11-08T17:05:50.050Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T17:05:50.050Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T17:05:50.050Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 2 ms
+[2022-11-08T17:06:09.009Z] [com.example.lsd2.controller.StudentController] [http-nio-8080-exec-3] [44] [INFO ] StudentController update Student with id: 6 to Student(id=null, name=Tran Trong Tan, email=trantruong193@gmail.com, phone=0382575181, status=true)
+[2022-11-08T17:06:50.050Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T17:06:50.050Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T17:06:50.050Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T17:06:52.052Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T17:06:52.052Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 6935 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T17:06:52.052Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T17:06:52.052Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T17:06:52.052Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T17:06:53.053Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T17:06:53.053Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+[2022-11-08T17:06:53.053Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T17:06:53.053Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T17:06:53.053Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T17:06:53.053Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T17:06:53.053Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T17:06:53.053Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 588 ms
+[2022-11-08T17:06:53.053Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T17:06:53.053Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T17:06:53.053Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T17:06:53.053Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T17:06:53.053Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T17:06:53.053Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T17:06:53.053Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T17:06:53.053Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T17:06:54.054Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T17:06:54.054Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T17:06:54.054Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T17:06:54.054Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T17:06:54.054Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.756 seconds (JVM running for 2.525)
+[2022-11-08T17:07:13.013Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T17:07:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T17:07:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-11-08T17:07:13.013Z] [com.example.lsd2.controller.StudentController] [http-nio-8080-exec-2] [44] [INFO ] StudentController update Student with id: 6 to Student(id=null, name=Tran Trong Tan, email=trantruong193@gmail.com, phone=0382575181, status=true)
+[2022-11-08T17:07:29.029Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T17:07:29.029Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T17:07:29.029Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T17:07:31.031Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T17:07:31.031Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 6944 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T17:07:31.031Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T17:07:31.031Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T17:07:31.031Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T17:07:31.031Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T17:07:31.031Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+[2022-11-08T17:07:32.032Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T17:07:32.032Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T17:07:32.032Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T17:07:32.032Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T17:07:32.032Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T17:07:32.032Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 593 ms
+[2022-11-08T17:07:32.032Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T17:07:32.032Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T17:07:32.032Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T17:07:32.032Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T17:07:32.032Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T17:07:32.032Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T17:07:32.032Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T17:07:32.032Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T17:07:32.032Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T17:07:33.033Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T17:07:33.033Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T17:07:33.033Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T17:07:33.033Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.904 seconds (JVM running for 2.583)
+[2022-11-08T17:07:54.054Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T17:07:54.054Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T17:07:54.054Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-11-08T17:08:04.004Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [208] [WARN ] Resolved [MyException(errorObject=ErrorObject(errorCode=LSD_01, errorMessage=ErrorMessage(err_vn=Email has been used !!, err_us=Email đã được sử dụng !!)), errorLoader=null)]
+[2022-11-08T17:09:04.004Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T17:09:04.004Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T17:09:04.004Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-11-08T17:09:36.036Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-11-08T17:09:36.036Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Lsd2Application using Java 19 on MacBook-Air-cua-tran.local with PID 6951 (/Users/trantruong193/laptrinh/springmvc/lsd2/target/classes started by trantruong193 in /Users/trantruong193/laptrinh/springmvc/lsd2)
+[2022-11-08T17:09:36.036Z] [org.springframework.boot.SpringApplication] [restartedMain] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-11-08T17:09:36.036Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-11-08T17:09:36.036Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-11-08T17:09:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-08T17:09:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+[2022-11-08T17:09:36.036Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-11-08T17:09:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-11-08T17:09:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-11-08T17:09:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-08T17:09:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-11-08T17:09:36.036Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [292] [INFO ] Root WebApplicationContext: initialization completed in 539 ms
+[2022-11-08T17:09:36.036Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-08T17:09:36.036Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-08T17:09:37.037Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-08T17:09:37.037Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2022-11-08T17:09:37.037Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-11-08T17:09:37.037Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-08T17:09:37.037Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-08T17:09:37.037Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T17:09:37.037Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-08T17:09:37.037Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [59] [INFO ] LiveReload server is running on port 35729
+[2022-11-08T17:09:37.037Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-11-08T17:09:37.037Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-11-08T17:09:37.037Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Lsd2Application in 1.57 seconds (JVM running for 2.075)
+[2022-11-08T17:09:43.043Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-08T17:09:43.043Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-11-08T17:09:43.043Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-11-08T17:09:43.043Z] [com.example.lsd2.controller.StudentController] [http-nio-8080-exec-2] [44] [INFO ] StudentController update Student with id: 9 to Student(id=9, name=Tran Trong Tan, email=trantruong1931@gmail.com, phone=03825751811, status=true)
+[2022-11-08T17:16:24.024Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-08T17:16:24.024Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-11-08T17:16:24.024Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
